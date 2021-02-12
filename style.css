@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.heading{
+    font-size:40px;
+    font-weight: bold;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 1px solid #212121;
+}
+
+.main-container{
+    padding: 20px;
+    overflow-x: auto;
+}
+
+.addList{
+    float: right;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 10px;
+    border-radius: 8px;
+    display: block;
+}
+
+.lists{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: auto;
+}
+
+.list{
+    min-width:20%;
+    background-color: lightyellow;
+    padding: 15px 15px 30px 15px;
+    min-height: 70vh;
+    margin-right:20px ;
+    border-radius: 5px;
+    position: relative;
+}
+
+.listHeading, .notesHeading{
+    font-size: 25px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom:20px;
+}
+
+.notes {
+    border: 0.5px solid;
+    padding: 5px;
+    margin-bottom: 15px;
+    background-color: orange;
+    color: mediumblue;
+}
+
+.notesHeading{
+    font-size: 20px;
+    margin-bottom:5px;
+}
+
+.notesDesc{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.addNote{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+/* @media all and (max-width:767px){
+    .list{
+        width:90%;
+        background-color: lightyellow;
+        padding: 15px;
+        min-height: 70vh;
+    }
+} */
+
+/* @media all and (min-width:768px){
+    
+} */
