@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+path {
+    pointer-events: none;
+}
+
 .heading{
     font-size:40px;
     font-weight: bold;
@@ -29,13 +33,12 @@
 .lists{
     margin-top: 20px;
     display: flex;
-    justify-content: space-between;
     align-items: center;
     overflow-x: auto;
 }
 
 .list{
-    min-width:20%;
+    min-width:300px;
     background-color: lightyellow;
     padding: 15px 15px 30px 15px;
     min-height: 70vh;
